@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Lato', serif;
-  scroll-behaviour: smooth;
+  scroll-behavior: smooth;
 }
 
 .red {
@@ -179,7 +179,7 @@ h1 {
 
 .about-logo {
   border: 1px solid var(--gray);
-  padding: 25px 75px;;
+  padding: 25px 75px;
 }
 
 .about-events {
@@ -381,7 +381,7 @@ footer {
   font-size: 0.8rem;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .mobile {
     display: none;
   }
