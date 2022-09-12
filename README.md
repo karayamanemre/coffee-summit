@@ -2,55 +2,39 @@
 
 # Project Name
 
-> Description the project.
-
+> In this project i've build an online website for an imaginary conference. 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://karayamanemre.github.io/coffee-summit/)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+   - Please install git in your computer.
+   - Also install a code editor.
+   - A web browser to view the output.
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+   - To clone my repository run this command `git clone https://github.com/karayamanemre/coffee-summit.git` 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@karayamanemre](https://github.com/karayamanemre)
+- Twitter: [@KarayamanEmre](https://twitter.com/KarayamanEmre)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emre-karayaman-a7b45b243/)
 
 ## 🤝 Contributing
 
@@ -64,9 +48,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Stock event photos: [Burst](https://stocksnap.io/author/burstshopify)
 
 ## 📝 License
 
