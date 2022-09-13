@@ -2,7 +2,7 @@
 
 # Coffee Summit 2022
 
-> First capstone project in Microverse. In this project i've build an online website for an imaginary conference. 
+> First capstone project in Microverse. I created a website for this project following the design concept by [Cindy Shin.](https://www.behance.net/adagio07) It's for an imaginary Coffee Summit. I kept the design's colors, but I created my own backgrounds and icons to go with the topic.
 
 ## Built With
 
@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://karayamanemre.github.io/coffee-summit/)
+[Coffee Summit 2022](https://karayamanemre.github.io/coffee-summit/)
 
 ## Getting Started
 
@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Emre Karayaman**
 
 - GitHub: [@karayamanemre](https://github.com/karayamanemre)
 - Twitter: [@KarayamanEmre](https://twitter.com/KarayamanEmre)
