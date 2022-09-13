@@ -3,6 +3,22 @@ const burger = document.getElementById('burger');
 const mobileMenu = document.getElementById('mobile-menu');
 const mobileMenuList = document.getElementById('mobile-menu-list');
 const mobileMenuLinks = document.querySelectorAll('.mobile-links');
+const topBtn = document.getElementById('back-to-top');
+
+document.body.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    topBtn.style.display = "block";
+  } else {
+    topBtn.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 burger.addEventListener('click', () => {
   burger.classList.toggle('active');
