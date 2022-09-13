@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Coffee Summit 2022
 
-> In this project i've build an online website for an imaginary conference. 
+> First capstone project in Microverse. In this project i've build an online website for an imaginary conference. 
 
 ## Built With
 
@@ -48,7 +48,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Stock event photos: [Burst](https://stocksnap.io/author/burstshopify)
+- Original design idea by [Cindy Shin.](https://www.behance.net/adagio07)
+- Stock event photos by [Burst.](https://stocksnap.io/author/burstshopify)
 
 ## 📝 License
 
