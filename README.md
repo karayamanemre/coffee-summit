@@ -10,7 +10,7 @@
 - CSS
 - JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://karayamanemre.github.io/coffee-summit/)
 
