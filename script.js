@@ -1,51 +1,56 @@
-const body = document.querySelector('body');
-const burger = document.getElementById('burger');
-const mobileMenu = document.getElementById('mobile-menu');
-const mobileMenuList = document.getElementById('mobile-menu-list');
-const mobileMenuLinks = document.querySelectorAll('.mobile-links');
-const topBtn = document.getElementById('back-to-top');
+const bodyElement = document.querySelector('body');
+const burgerElement = document.getElementById('burger');
+const mobileMenuElement = document.getElementById('mobile-menu');
+const mobileMenuListElement = document.getElementById('mobile-menu-list');
+const mobileMenuLinksElements = document.querySelectorAll('.mobile-links');
+const topButtonElement = document.getElementById('back-to-top');
 
-function scrollFunction() {
-  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-    topBtn.style.display = 'block';
+function handleScroll() {
+  if (
+    document.body.scrollTop > 300 ||
+    document.documentElement.scrollTop > 300
+  ) {
+    topButtonElement.style.display = 'block';
   } else {
-    topBtn.style.display = 'none';
+    topButtonElement.style.display = 'none';
   }
 }
 
-window.addEventListener('scroll', scrollFunction);
+window.addEventListener('scroll', handleScroll);
 
-function topFunction() {
+function handleTopButtonClick() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
 
-topBtn.addEventListener('click', topFunction);
+topButtonElement.addEventListener('click', handleTopButtonClick);
 
-burger.addEventListener('click', () => {
-  burger.classList.toggle('active');
-  mobileMenuList.classList.toggle('active');
-  body.classList.toggle('overflow');
-  mobileMenu.classList.toggle('active');
+burgerElement.addEventListener('click', () => {
+  burgerElement.classList.toggle('active');
+  mobileMenuListElement.classList.toggle('active');
+  bodyElement.classList.toggle('overflow');
+  mobileMenuElement.classList.toggle('active');
 });
 
-mobileMenuLinks.forEach((link) => link.addEventListener('click', () => {
-  burger.classList.toggle('active');
-  mobileMenuList.classList.toggle('active');
-  body.classList.toggle('overflow');
-}));
+mobileMenuLinksElements.forEach((linkElement) =>
+  linkElement.addEventListener('click', () => {
+    burgerElement.classList.toggle('active');
+    mobileMenuListElement.classList.toggle('active');
+    bodyElement.classList.toggle('overflow');
+  }),
+);
 
 const speakerList = [
   {
     speakerName: 'Filippa Noela',
-    job: 'Owner of Sea ​​of ​Coffee',
+    job: 'Owner of Sea of Coffee',
     info: 'Filippa knows a lot about coffee.',
     image: 'img/speaker1.jpeg',
   },
   {
     speakerName: 'Teresa Pari',
-    job: 'Consultant of Coffee World',
-    info: 'Teresa is consulting since 9.',
+    job: 'Coffee World Consultant',
+    info: 'Teresa has been consulting for 9 years.',
     image: 'img/speaker2.jpeg',
   },
   {
@@ -73,17 +78,18 @@ const speakerList = [
     image: 'img/speaker6.jpeg',
   },
 ];
-const speakers = document.querySelector('.speaker-list');
-Array.from(speakers.children).forEach((child, index) => {
-  child.innerHTML = `
-      <div class="image-box">
-        <img class="speaker-image" src="${speakerList[index].image}">
-      </div>
-      <div class="speaker-info">
-        <p class="speaker-name">${speakerList[index].speakerName}</p>
-        <p class="title">${speakerList[index].job}</p>
-        <hr class="gray">
-        <p>${speakerList[index].info}</p>
-      </div>
-    `;
+
+const speakerListElement = document.querySelector('.speaker-list');
+Array.from(speakerListElement.children).forEach((childElement, index) => {
+  childElement.innerHTML = `
+    <div class="image-box">
+      <img class="speaker-image" src="${speakerList[index].image}" alt="${speakerList[index].speakerName} photo">
+    </div>
+    <div class="speaker-info">
+      <p class="speaker-name">${speakerList[index].speakerName}</p>
+      <p class="title">${speakerList[index].job}</p>
+      <hr class="gray">
+      <p>${speakerList[index].info}</p>
+    </div>
+  `;
 });
